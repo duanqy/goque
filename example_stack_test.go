@@ -1,15 +1,13 @@
-package goque_test
+package goque
 
 import (
 	"fmt"
-
-	"github.com/beeker1121/goque"
 )
 
 // ExampleStack demonstrates the implementation of a Goque stack.
 func Example_stack() {
 	// Open/create a stack.
-	s, err := goque.OpenStack("data_dir")
+	s, err := OpenStack("data_dir")
 	if err != nil {
 		fmt.Println(err)
 		return

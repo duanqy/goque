@@ -1,15 +1,13 @@
-package goque_test
+package goque
 
 import (
 	"fmt"
-
-	"github.com/beeker1121/goque"
 )
 
 // ExampleQueue demonstrates the implementation of a Goque queue.
 func Example_queue() {
 	// Open/create a queue.
-	q, err := goque.OpenQueue("data_dir")
+	q, err := OpenQueue("data_dir")
 	if err != nil {
 		fmt.Println(err)
 		return

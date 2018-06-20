@@ -24,11 +24,6 @@
 #   go-tests = true
 #   unused-packages = true
 
-
-[[constraint]]
-  name = "github.com/beeker1121/goque"
-  version = "2.0.1"
-
 [[constraint]]
   branch = "master"
   name = "github.com/syndtr/goleveldb"

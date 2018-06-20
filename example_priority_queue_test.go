@@ -1,15 +1,13 @@
-package goque_test
+package goque
 
 import (
 	"fmt"
-
-	"github.com/beeker1121/goque"
 )
 
 // ExamplePriorityQueue demonstrates the implementation of a Goque queue.
 func Example_priorityQueue() {
 	// Open/create a priority queue.
-	pq, err := goque.OpenPriorityQueue("data_dir", goque.ASC)
+	pq, err := OpenPriorityQueue("data_dir", ASC)
 	if err != nil {
 		fmt.Println(err)
 		return

@@ -2,12 +2,6 @@
 
 
 [[projects]]
-  name = "github.com/beeker1121/goque"
-  packages = ["."]
-  revision = "e1e63ca63c14b41209e160f54c8e7669564eacc4"
-  version = "v2.0.1"
-
-[[projects]]
   branch = "master"
   name = "github.com/golang/snappy"
   packages = ["."]
@@ -35,6 +29,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "40cc83780898549b3bfd461c5ccfd322418881fa1907126f9ee0b320e35d873f"
+  inputs-digest = "34c6ac2732f1906d9e993eacdbfe2b7dde1862dda1fb25ae2416eaa36c836016"
   solver-name = "gps-cdcl"
   solver-version = 1
